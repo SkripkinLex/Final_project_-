@@ -1,0 +1,29 @@
+.header{
+    height: 175px;
+    max-width: 1440px;
+    background-color: #fff;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_catalog{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header_logo{
+    height: 72px;
+    width: 72px;
+    background-image: url(../media/Logo\ \(3\).png);
+    margin: 26px 19px 76px 19px;
+}
+
+.header_wrapper{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    margin-right: 32px;
+}

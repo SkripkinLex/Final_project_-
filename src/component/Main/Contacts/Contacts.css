@@ -1,0 +1,12 @@
+.wrapper {
+    height: 600px;
+    max-width: 1440px;
+    background-color: #A1E2EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    font-size: 30px;
+}
