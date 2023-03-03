@@ -1,0 +1,68 @@
+* {margin: 0; padding: 0;}
+
+.product_div{
+    margin-left: 90px;
+}
+
+.product_container {
+    height: 717px;
+    max-width: 1321px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title_product {
+    margin: 30px 0 30px ;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 130%;
+    color: #3A3A3A;
+}
+
+.product_img{
+    height: 710px;
+    width: 710px;
+}
+
+.price_container{
+    margin: 45px 0 0 0;
+    display: flex;
+}
+
+.price_product{
+    margin-top: 38px;
+    margin-left: 50px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    text-decoration-line: line-through;
+    color: #8B8B8B;
+    
+}
+
+.discont_price{
+    font-weight: 600;
+    font-size: 70px;
+    color: #000000;
+}
+
+.description_title{
+    margin-top: 66px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.price_description{
+    margin: 15px 0 0 0;
+    max-height: 56px;
+    width: 412px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    color: #000000;
+}

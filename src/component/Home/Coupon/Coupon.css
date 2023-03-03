@@ -1,0 +1,54 @@
+* {margin: 0; padding: 0;}
+
+.wrapper_coupon {
+    height: 476px;
+    max-width: 1440px;
+    background: linear-gradient(262.69deg, #339933 -0.43%, #006300 104.36%);
+    font-family: 'Montserrat';
+    font-style: normal;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.gnom{
+    height: 422px;
+    width: 422px;
+    
+}
+
+.discont_block{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.discount_coupon{
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.order{
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.Get_a_discount{
+    margin-top: 30px;
+    width: 473px;
+    height: 75.44px;
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 120%;
+    background: linear-gradient(262.69deg, #339933 -0.43%, #006300 104.36%);
+    
+}

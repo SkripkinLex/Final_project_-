@@ -1,0 +1,20 @@
+* {margin: 0; padding: 0;}
+
+.wrapper_Stock {
+    margin: 50px 0 0 30px;
+    height: 600px;
+    max-width: 1440px;
+    background-color: #fff;
+}
+
+.text{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%
+}
+
+.stock_container{
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}

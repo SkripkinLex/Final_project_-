@@ -1,0 +1,30 @@
+* {margin: 0; padding: 0;}
+
+.wrapper_products{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.product_title_descr{
+    font-size: 20px;
+    font-family: 'Montserrat';
+    color: black
+}
+
+.product_prices_wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+
+.link_css{
+    text-decoration: none;
+}
+
+.price_line{
+    color: gray;
+    text-decoration: line-through;
+}
+
+.discount{
+    color: #FF32A1
+}

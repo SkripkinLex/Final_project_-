@@ -1,0 +1,27 @@
+.input_elem{
+    width: 473px;
+    height: 75px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    border: none;
+    color: #6C6C6C;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    padding-left: 0px;
+    text-align: center;
+}
+
+.Get_discount{
+    margin-left: 25px;
+    width: 446px;
+    height: 73px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130%;
+    color: #929292;
+}
