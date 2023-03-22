@@ -10,9 +10,9 @@ function Coupon() {
           <img alt='gnom_png' src={gnom_png}/>
         </div>
         <div className='discont_block'>
-          <h1 className='discount_coupon'>Discount 5%</h1>
-          <h3 className='order'>for the first order</h3>
-          <Input/>
+          <h1 className='discount_coupon'>5% off</h1>
+          <h3 className='order'>on the first order</h3>
+          <Input className='Phone_number_coupon_input' placeholder={'+49'}/>
           <Button title ={'Get a discount'} color='Get_a_discount'/>
         </div>
         

@@ -1,5 +1,6 @@
 {
   "name": "myapp",
+  "homepage": "C:/Users/DM/Desktop/Final_projekt/myapp/build",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

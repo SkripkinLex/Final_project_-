@@ -1,7 +1,9 @@
+import './Catalog.css' 
+
 function Catalog() {
     return (
       <div className="wrapper_catalog">
-      <p className='text'>Catalog</p>
+      <p className='text_catalog'>Catalog</p>
     </div>
     );
   }

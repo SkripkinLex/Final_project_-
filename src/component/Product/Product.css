@@ -20,6 +20,7 @@
 }
 
 .product_img{
+    border-radius: 15px;
     height: 710px;
     width: 710px;
 }

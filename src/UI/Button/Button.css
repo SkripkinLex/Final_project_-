@@ -12,7 +12,9 @@
     border: 2px solid #339933;
     border-radius: 5px;
     color: #FFFFFF
+    
 }
+
 
 .white{
     margin-left: 90px;
@@ -58,7 +60,8 @@
     border-radius: 5px;
     font-weight: 700;
     font-size: 28px;
-    color: #FFFFFF
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 .xl{
@@ -74,11 +77,13 @@
 }
 
 .gray{
+    margin-top: 53px;
     width: 120px;
     height: 31px;
     border: 2px solid #8B8B8B;
     background-color: #FFFFFF;
-    color: #8B8B8B;;
+    color: #8B8B8B;
+    text-decoration: none;
 }
 
 .Add_to_cart{
@@ -94,4 +99,28 @@
     line-height: 130%;
     border: none;
     color: #FFFFFF;
+    
+}
+
+.btn_add_relative{
+    width: 279px;
+    height: 72px;
+    margin: 15px;
+    opacity: 0;
+    background: #F1FFF1;
+    border: 2px solid #339933;
+    border-radius: 21px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    color: #339933;
+    transition: 0.3s;
+    text-decoration: #ffffff;
+}
+
+.btn_add_relative:hover{
+    opacity: 1;
 }

@@ -1,13 +1,13 @@
 * {margin: 0; padding: 0;}
 
 .header{
-    height: 175px;
-    max-width: 1440px;
+    height: 110px;
     background-color: #fff;
-
+    margin-bottom: 55px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-right: 115px;
 }
 
 .header_catalog{
@@ -28,15 +28,26 @@
 
 .header_wrapper{
     display: flex;
+    gap: 60px;
+    align-items: center;
     width: 400px;
-    justify-content: space-between;
     margin-right: 32px;
 }
 
 .header_text{
+    font-family: 'Montserrat';
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 130%;
     text-decoration: none;
     color: #000000;
+}
+
+.header_text:hover{
+    color: #339933;
+}
+
+.svg_basket:hover{
+    color: white;
 }

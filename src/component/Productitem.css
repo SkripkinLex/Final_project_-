@@ -1,0 +1,70 @@
+
+
+.btn_add_relative{
+    width: 279px;
+    height: 72px;
+    margin: 15px;
+    opacity: 0;
+    background: #F1FFF1;
+    border: 2px solid #339933;
+    border-radius: 21px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    color: #339933;
+    transition: 0.3s;
+    
+}
+
+.btn_add_relative:hover{
+    opacity: 1;
+    text-decoration: none;
+}
+
+.product_title_descr_price{
+    max-width: 280px;
+    margin: 10px 0 10px 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 130%;
+    color: #000000;
+    text-decoration: none;
+}
+
+
+
+.product_title_descr_1{
+    margin-top: 20px;
+}
+
+.product_title_descr_2{
+    margin-top: 20px;
+}
+
+.product_title_descr{
+    max-width: 280px;
+    margin-left: 58px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: #3A3A3A;
+}
+
+.product_prices_wrapper{
+    max-width: 360px;
+}
+
+.product_wrapper{
+    margin-bottom: 45px;
+}
+
+.link_text_decoration{
+    text-decoration: none;
+}

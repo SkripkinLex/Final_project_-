@@ -8,6 +8,7 @@ import { addProductAction } from '../store/basketReducer'
 import './Product.css'
 
 
+
 function Product(){
     const {id}=useParams()
     const product=useSelector(store => store.product.product)
@@ -17,13 +18,15 @@ function Product(){
         dispatch (fetchProduct(id))
     }, [])
 
+    
+
 
 
     return(
         <div className='product_div'>
             <h1 className='title_product'>{product.title}</h1>
             <div className='product_container'>
-                <img className='product_img' src={baseUrl+product.image}/>
+                <img className='product_img' src={baseUrl+product.image} alt=""/>
                 <div>
                     <div className='price_container'>
                         <p className='discont_price'>{product.discont_price}$</p>
@@ -31,7 +34,7 @@ function Product(){
                     </div>
                     <Button  
                         onClick={() => dispatch(addProductAction(product))}
-                        title ={'Add to cart'} 
+                        title ={'To cart'} 
                         color='cart'/> 
                         <p className='description_title'>Description</p>  
                     <p className='price_description'>{product.description}</p>

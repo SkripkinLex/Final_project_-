@@ -1,14 +1,28 @@
 * {margin: 0; padding: 0;}
 
+.title_productList{
+    margin-left: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    color: #000000;
+    text-decoration: none;
+}
+
+
+
 .wrapper_products{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
 
 .product_title_descr{
-    font-size: 20px;
+    font-size: 16px;
     font-family: 'Montserrat';
-    color: black
+    color: black;
+    text-decoration: none;
 }
 
 .product_prices_wrapper{

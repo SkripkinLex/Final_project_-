@@ -2,8 +2,7 @@
 
 .wrapper_contact {
     margin-top: 33px;
-    height: 275px;
-    max-width: 1348px;
+    height: 375px;
     font-family: 'Montserrat';
     font-style: normal;
     background-color: #FFFFFF;
@@ -23,9 +22,20 @@
     line-height: 130%;
 }
 
-.insta{
-    color: #000;
-    background-image: url(../../media/icons.png);
+.icon_container{
+    margin: 33px;
+    display: flex;
+    gap: 35px;
+}
+
+.icon_style{
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 130%;
+    color: #000000;
 }
 
 .contact{
@@ -38,6 +48,7 @@
 
 
 .adres_div{
+    margin-right: 30px;
     display: block;
     text-align: left;
 }
@@ -49,10 +60,11 @@
     line-height: 130%;
 }
 
-.text{
+.adres_text{
     font-weight: 600;
     font-size: 40px;
     line-height: 130%;
+    text-decoration-line: underline;
 }
 
 .working_mode{

@@ -1,12 +1,8 @@
-* {margin: 0; padding: 0;}
-
-
-
-.text_catalog{
+.title_categories{
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 700;
     font-size: 40px;
     line-height: 130%;
     color: #000000;
-    }
+    margin: 0 0 50px 31px;
+}

@@ -2,7 +2,6 @@
 
 .wrapper_coupon {
     height: 476px;
-    max-width: 1440px;
     background: linear-gradient(262.69deg, #339933 -0.43%, #006300 104.36%);
     font-family: 'Montserrat';
     font-style: normal;
@@ -49,6 +48,16 @@
     font-weight: 700;
     font-size: 28px;
     line-height: 120%;
-    background: linear-gradient(262.69deg, #339933 -0.43%, #006300 104.36%);
+    background: linear-gradient(262.69deg, #339933 -0.43%, #007900 104.36%);
     
+}
+
+.Phone_number_coupon_input{
+    margin-left: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+    color: #929292;
 }
